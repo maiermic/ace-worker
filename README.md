@@ -1,6 +1,6 @@
 # ACE worker scripts
 
-This package provides the two scripts *mirror.js* and *worker.js* that are required to write a worker for the
+This package provides the two scripts [mirror.js][mirror.js] and [worker.js][worker.js] that are required to write a worker for the
 [ACE editor][ace-website] but are not bundled in [ace-builds][ace-builds-github].
 
 ## How to use
@@ -103,3 +103,5 @@ ace.define('ace/worker/my-worker',["require","exports","module","ace/lib/oop","a
 [ace-website]: https://ace.c9.io/
 [ace-builds-github]: https://github.com/ajaxorg/ace-builds
 [ace-syntax-validation-wiki]: https://github.com/ajaxorg/ace/wiki/Syntax-validation
+[mirror.js]: https://github.com/ajaxorg/ace/blob/eec012b24e8a39fef32631aab509d7e363f296ab/lib/ace/worker/mirror.js
+[worker.js]: https://github.com/ajaxorg/ace/blob/eec012b24e8a39fef32631aab509d7e363f296ab/lib/ace/worker/worker.js
